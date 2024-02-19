@@ -1,6 +1,4 @@
 # Interactive Web App with Streamlit and Scikit-learn
-Explore different datasets and classifier. Streamlit lets you create apps for your machine learning projects with simple
-Python scripts. See official [streamlit website](https://www.streamlit.io/) for more info.
 
 ## Installation
 You need these dependencies:
@@ -17,8 +15,8 @@ streamlit run main.py
 ```
 
 ## Usage - Docker
-Derste 
-docker run -p 8080:8080 mlimage bash ile çalıştırmak istemiştik, o metot ile farklı bilgisayarlarda denediğimde sorun olmadı. Aşağıdaki şekliyle doğrudan çalışacaktır.
+
+docker run -p 8080:8080 mlimage bash
 
 Run
 ```console
@@ -28,5 +26,3 @@ docker build -t mlimage .
 docker run -p 8080:8080 mlimage
 ```
 
-## Demo
-Visit [demo](https://autom-coder-ml-methods-streamlit-main-g0wljb.streamlit.app/)
